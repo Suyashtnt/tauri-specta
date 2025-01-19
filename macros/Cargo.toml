@@ -1,15 +1,20 @@
 [package]
 name = "tauri-specta-macros"
-version = "0.1.0"
+description = "Completely typesafe Tauri commands"
+version = "2.0.0-rc.16"
+authors = ["Oscar Beaumont <oscar@otbeaumont.me>"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+repository = "https://github.com/oscartbeaumont/tauri-specta"
+documentation = "https://docs.rs/tauri-specta/latest/tauri-specta"
+keywords = ["async", "specta", "rspc", "typescript", "typesafe"]
+categories = ["web-programming", "asynchronous"]
 
 [lib]
 proc-macro = true
 
 [dependencies]
-heck = "0.4.1"
-proc-macro2 = "1.0.39"
-quote = "1.0.18"
-syn = "1.0.91"
+heck = "0.5.0"
+proc-macro2 = "1"
+quote = "1"
+syn = "2"
